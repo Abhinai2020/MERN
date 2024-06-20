@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.submit{
+    background-color: dodgerblue;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: 1s;
+}
+.submit:hover{
+    background-color: green;
+    color: white;
+}
+/* Error page css */
+
+#error-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkmagenta;
+}
+#error-page .content{
+    max-width: 70rem;
+    text-align: center;
+}
+.content h2.header{
+    font-size: 18vw;
+    line-height: 1em;
+    animation: animate 10s ease-in-out infinite;
+    background: -webkit-repeating-linear-gradient(
+        -60deg,
+        #71b7eb,
+        #9d10d9,
+        #ee8176,
+        #b26,
+        #9b59
+    );
+    -webkit-text-fill-color:aqua;
+    text-shadow: 2px 2px 5px rgb(83, 13, 203);
+}
+
+     
