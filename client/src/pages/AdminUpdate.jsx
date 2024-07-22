@@ -66,7 +66,7 @@ export const AdminUpdate=()=>{
 
      return(
         <>
-        <section className="bg-teal-400 h-svh">
+        <section className="bg-slate-300 h-svh">
           <main> 
             <div className="registration ">
               <div className="container grid grid-cols-2 gap-5 p-5 justify-items-center">

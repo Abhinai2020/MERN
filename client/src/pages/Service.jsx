@@ -4,7 +4,7 @@ export const Service=()=>{
     const {services}=useAuth();
     return(
         <>
-       <section className="services">
+       <section className="services bg-slate-300">
         <div className="container">
             <h1 className="main-heading text-2xl font-bold underline">Services</h1>
         </div>
@@ -16,12 +16,12 @@ export const Service=()=>{
                     return(
                     <div className="card" key={index}>
                     <div className="card-img">
-                        <img src="/images/services.jpg" alt="Img not found"/>
+                        <img src="/images/services.jpg" alt="Img not found" className="ml-2 rounded-3xl"/>
                     </div>
-                    <div className="card-details">
+                    <div className="card-details ml-5">
                     <div className="grid grid-cols-2">
                         <p>{provider}</p>
-                        <p>{price}</p>
+                        <p>Couse price:{price}</p>
                     </div>
                     <p>{service}</p>
                     <p>{description}</p>

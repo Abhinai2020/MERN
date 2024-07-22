@@ -13,15 +13,15 @@ const Footer = () => {
             <ul>
                 <li>
                 <span>&#8594;</span>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
                     </li><br/>
                      <li>
                 <span>&#8594;</span>
-                <a href="#">About</a>
+                <a href="/about">About</a>
                     </li><br/>
                      <li>
                 <span>&#8594;</span>
-                <a href="#">Services</a>
+                <a href="/service">Services</a>
                     </li><br/>
             </ul>
           </div>
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center h-16 mt-5 text-xl">
-          Welcome to Abhinai Website
+          Welcome to our Website
         </div>
       </footer>
     </>

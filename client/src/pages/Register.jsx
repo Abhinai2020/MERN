@@ -57,7 +57,7 @@ export const Register = () => {
    };
   return (
     <>
-      <section className="bg-teal-400 h-svh">
+      <section className="bg-slate-300">
         <main> 
           <div className="registration ">
             <div className="container grid grid-cols-2 gap-5 p-5 justify-items-center">
@@ -65,7 +65,7 @@ export const Register = () => {
                 <img
                   src="/images/register1.jpg"
                   alt="You are trying to register"
-                  className="mt-16 ml-24"
+                  className="h-64 m-32 rounded-3xl"
                 />
               </div>
               <div className="registration-form">

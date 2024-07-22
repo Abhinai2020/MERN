@@ -53,7 +53,7 @@ export const Contact = () => {
    }
   return (
     <>
-      <section className="bg-orange-300 h-svh">
+      <section className="bg-slate-300 h-svh">
         <main> 
           <div className="contact">
             <div className="container grid grid-cols-2 gap-5 p-5 justify-items-center">
@@ -61,7 +61,7 @@ export const Contact = () => {
                 <img
                   src="/images/contact.jpg"
                   alt="Something went wrong"
-                  className="mt-16 ml-32"
+                  className="h-64 m-32 rounded-3xl"
                 />
               </div>
               <div className="contact-form">

@@ -50,7 +50,7 @@ function AdminContacts() {
     },[])
   return (
     <>
-    <section className='bg-indigo-500'>
+    <section className="bg-slate-300">
         <div>
         <h1 className='text-center text-2xl font-bold underline underline-offset-1'>Admin Contacts Data</h1>
         </div>

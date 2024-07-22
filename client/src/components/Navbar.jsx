@@ -7,9 +7,9 @@ import "./Navbar.css"
   return (
     <>
     <header>
-          <nav className="Navbar">
+          <nav className="Navbar h-12 pt-2">
             <div className="Navdiv">
-            <div className="logo"><NavLink to="#" className="navlink">Abhiani</NavLink></div>
+            <div className="logo"><NavLink to="#" className="text-3xl font-bold">EduHub Academy</NavLink></div>
             <ul>
               <li>
                 <NavLink  exact="true" to="/" className="navlink"  style={({ isActive }) => {return {color: isActive ? "black" : "white",};}}>Home</NavLink>

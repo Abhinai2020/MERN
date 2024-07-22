@@ -54,7 +54,7 @@ export const Login = () => {
    }
   return (
     <>
-      <section className="bg-sky-400 h-svh">
+      <section className="bg-slate-300">
         <main> 
           <div className="login ">
             <div className="container grid grid-cols-2 gap-5 p-5 justify-items-center">
@@ -62,7 +62,7 @@ export const Login = () => {
                 <img
                   src="/images/login.jpg"
                   alt="You are trying to login"
-                  className="mt-16 ml-16"
+                  className="h-64 m-32 rounded-3xl"
                 />
               </div>
               <div className="login-form">
