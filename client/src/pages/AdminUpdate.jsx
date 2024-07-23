@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import React,{ useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import { useAuth } from "../store/auth";
 import { toast } from 'react-toastify';
@@ -11,8 +11,8 @@ export const AdminUpdate=()=>{
     });
 
     const params=useParams();
-    console.log("params single user: ",params);
-    const {authorizationToken}=useAuth();f
+    // console.log("params single user: ",params);
+    const {authorizationToken}=useAuth();
 
     const getSingleUserData=async()=>{
         try {
@@ -47,7 +47,7 @@ export const AdminUpdate=()=>{
         e.preventDefault();
         try {
             const response=await fetch(`http://localhost:5000/abhinai/admin/users/update/${params.id}`,{
-                mehtod:"PATCH",
+                method:"PATCH",
                 headers:{
                     "Content-Type":"application/json",
                     Authorization:authorizationToken,
